@@ -14,7 +14,7 @@ myForm.addEventListener("submit", function(e) {
         window.location = "home.html";
     }
     else {
-        alert("invalid username or password");
+        alert("Invalid username or password");
     }
   
 })
