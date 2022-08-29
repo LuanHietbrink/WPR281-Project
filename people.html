@@ -10,20 +10,76 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/People.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>Document</title>
 </head>
 <body>
+
+    <div id="allofpeople">
+        
+        <div class="Details">
+            <label>Please enter Person ID </label>
+            <input type="text" id="myPID"><br>
+    
+        </div>
+        <div class="Details">
+            <label>Please enter Persons Name </label>
+            <input type="text" id="myPName"><br>
+    
+        </div>
+        <div class="Details">
+            <label>Please enter Persons Surname </label>
+            <input type="text" id="myPSurname"><br>
+    
+        </div>
+        <div class="Details">
+            <label>Please enter Persons Email </label>
+            <input type="text" id="myPEmail"><br>
+    
+        </div>
+        <div class="Details">
+            <label>Please enter Persons username </label>
+            <input type="text" id="myPUsername"><br>
+    
+        </div>
+        
+            <div class="Details">
+                <Button class="BDetails" type="button" id="AddButton">Add Person</Button>
+                <button class="BDetails" id="btnClear">Clear</button>
+                <p id="pText"></p>
+            </div>
+            
+        
+    
+            <div class="Details">
+                <button class="BDetails" id="view">View People</button>
+                <div id="table"></div>
+            </div>
+        
+        
+
+    </div>
+    
+           
+    
+
+    
+
     <!--Navigation bar-->
     <div id="nav-placeholder">
 
+        <script>
+            $(function(){
+            $("#nav-placeholder").load("nav.html");
+            });
+            
+        </script>
+
     </div>
 
-    <p>This is a test</p>
-    <script>
-        $(function(){
-        $("#nav-placeholder").load("nav.html");
-        });
-    </script>
+    
+   
+    <script src="people.js"></script>
 </body>
 </html>

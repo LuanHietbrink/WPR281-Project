@@ -1,0 +1,57 @@
+#table {
+    display: block;
+    margin-top: 20px;
+    
+    
+}
+tr:nth-child(odd) {
+    background-color:rgb(255, 255, 255);
+}
+tr:nth-child(even) {
+    background-color:rgb(187, 194, 248);
+}
+ 
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+#allofprojects{
+   
+    margin: 30px;
+    position: absolute;
+    margin-left: 300px;
+    font-size: 20px;
+    
+}
+#nav-placeholder{
+    position: fixed;
+}
+.BtnDetails{
+ margin: 5px;
+ border-radius: 4px;
+ background-color: rgb(100, 114, 240);
+ color: white;
+
+}
+.BtnDetails:hover{
+    background-color: rgb(208, 213, 250);
+    color :#000000;
+}
+.ProjectDetails{
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    
+   
+    
+}
+#pText{
+    
+    font-family:Arial, Helvetica, sans-serif;   
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(208, 213, 250);
+}
+#ProjectDetails{
+    height: 80px;
+}

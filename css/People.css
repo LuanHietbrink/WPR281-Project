@@ -1,0 +1,52 @@
+#table {
+    display: block;
+    margin-top: 20px;
+    
+    
+}
+tr:nth-child(odd) {
+    background-color:rgb(255, 255, 255);
+}
+tr:nth-child(even) {
+    background-color:rgb(187, 194, 248);
+}
+ 
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+    
+    
+.Details{
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 300px;
+    
+    
+}
+#allofpeople{
+    position: absolute;
+    
+}
+#nav-placeholder{
+    position: fixed;
+}
+.BDetails{
+ margin: 5px;
+ border-radius: 4px;
+ background-color: rgb(100, 114, 240);
+ color: white;
+ 
+}
+.BDetails:hover{
+    background-color: rgb(208, 213, 250);
+    color :#000000;
+}
+#pText{
+    
+    font-family:Arial, Helvetica, sans-serif;   
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(208, 213, 250);
+}
