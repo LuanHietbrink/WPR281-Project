@@ -1,3 +1,5 @@
+//Populating the array to begin with
+
 var Project = new Array();
 Project[0] = new Array ( 1,"Loading Screen project","Changing the loadingscreen for upcoming event");
 Project[1] = new Array ( 2,"Video Buffering project","Fixing network errors that occurs while streaming videos");
@@ -12,7 +14,7 @@ Project[7] = new Array ( 8,"Strange Noises","On reboot computer gives off strang
 
 
 
-
+//Adding new projects 
 
 document.getElementById("AddButton").onclick = function Add_Project(){
 
@@ -38,6 +40,8 @@ document.getElementById("AddButton").onclick = function Add_Project(){
                 document.getElementById('pText').innerHTML = pval;
 
 }
+
+//Creating a self generating table to display projects added
 
 let btnGet = document.querySelector('#view');
 let myTable = document.querySelector('#table');
@@ -76,6 +80,8 @@ btnGet.addEventListener('click', () => {
 
     myTable.appendChild(table);
 });
+
+//Adding a "Clear" Button to clear input fields when clicked
 
 document.getElementById("ClearButton").onclick = function Clearfields(){
     

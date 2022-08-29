@@ -1,3 +1,5 @@
+//Populating the array to begin with
+
 var Person = new Array();
 Person[0] = new Array ( 1,"Pieter", "Marias", "pieter45@Gmail.com","Piet45" );
 Person[1] = new Array ( 2,"Jasper", "Nortje", "Jasper22@Gmail.com","Jas22" );
@@ -10,7 +12,7 @@ Person[5] = new Array ( 6,"Joy", "Everson", "joyful56@Gmail.com","Joy5" );
 
 
 
-
+//Adding new people on the site 
 
 document.getElementById("AddButton").onclick = function Add_Person(){
 
@@ -36,6 +38,9 @@ document.getElementById("AddButton").onclick = function Add_Person(){
                 document.getElementById('pText').innerHTML = pval;
 
 }
+
+//Creating a self generating table to display people on the system
+
 let btnGet = document.querySelector('#view');
 let myTable = document.querySelector('#table');
 
@@ -71,6 +76,8 @@ btnGet.addEventListener('click', () => {
 
     myTable.appendChild(table);
 });
+
+//Adding a "Clear" Button to clear input fields when clicked
 
 document.getElementById("btnClear").onclick = function Clearfields(){
     
