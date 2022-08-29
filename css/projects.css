@@ -1,7 +1,13 @@
+body{
+    background-image: url(/images/home-background.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 #table {
     display: block;
     margin-top: 20px;
-    
+    color: black;
     
 }
 tr:nth-child(odd) {
@@ -21,6 +27,7 @@ th, td {
     position: absolute;
     margin-left: 300px;
     font-size: 20px;
+    color: white;
     
 }
 #nav-placeholder{
