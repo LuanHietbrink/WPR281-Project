@@ -1,3 +1,19 @@
 body{
     background-color: #bbc2f7;
 }
+#nav-placeholder{
+   position: fixed;
+}
+#form{
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 300px;
+}
+.BtnDetails{
+    margin: 5px;
+    border-radius: 4px;
+    background-color: rgb(100, 114, 240);
+    color: white;
+   }   
