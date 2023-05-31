@@ -1,3 +1,60 @@
 body{
-    background-color: #bbc2f7;
+    background-image: url(/images/home-background.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#nav-placeholder{
+   position: fixed;
+}
+#form{
+    position: relative;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 500px;
+    background-color: #2739bd;
+    border-radius: 20px;
+    max-width: 500px;
+    text-align: center;
+    color: white;
+}
+.BtnDetails{
+    margin: 5px;
+    border-radius: 4px;
+    background-color: rgb(100, 114, 240);
+    color: white;
+   }   
+
+.BtnDetails:hover{
+    background-color: rgb(208, 213, 250);
+    color :#000000;
+}
+.content {
+    margin-left: 300px;
+    text-align: center;
+}
+
+#tickets {
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    font-size: 15px;
+    color: #6675df;
+    display: inline-block;
+    width: 900px;
+}
+
+#tickets>h1{
+    font-size: 20px;
+    font-weight: 800;
+    color: #6675df;
+}
+
+#tickets>div{
+    margin: 20px;
+    padding: 20px;
+    float: left;
 }

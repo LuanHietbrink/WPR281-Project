@@ -25,8 +25,32 @@
     });
   </script>
   <!--end of Navigation bar-->
+  <div class="content">
+      <datalist id="SeverityList">
+        <option value="Low"></option>"
+        <option value="Medium"></option>"
+        <option value="High"></option>"
+      </datalist>
+      <form id="form">
+        <h1>Please fill in the form to create the issue</h1>
+        <label>Issue description</label><br>
+        <input type="text" id="description" placeholder="Enter a description" required="required"><br><br>
+        <label>Severity</label><br>
+        <input type="search" id="severity" list="SeverityList" placeholder="Please select an option" required="required"><br><br>
+        <label>Assigned by</label><br>
+        <input type="text" id="assigned" placeholder="Please enter your name" required="required"><br><br>
+        <button type="button" class="BtnDetails" id="submit" onclick="Save()">Submit</button>
+        <button type="button" class="BtnDetails" id="displayAll" onclick="DisplayAll()">Show all tickets</button>
+        <button type="button" class="BtnDetails" id="displayCurr" onclick="DisplaySelected()">Show selected ticket</button>
+      </form>
+      <div id="tickets">
+        <h1>Tickets</h1>
+      </div>
 
+  </div>
+  
 
+  <script src="home.js"></script>
       
       
 </body>
